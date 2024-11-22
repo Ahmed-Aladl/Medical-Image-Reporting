@@ -21,6 +21,10 @@ The <a href="https://physionet.org/content/mimic-cxr/2.0.0/" target="_blank"> MI
 </ul> </p>
 <B> Installation : </B>
 
+````bash
+hdaoigh
+````
+
 
 
  
