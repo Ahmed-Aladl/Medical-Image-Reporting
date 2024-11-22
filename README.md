@@ -20,7 +20,6 @@ The <a href="https://physionet.org/content/mimic-cxr/2.0.0/" target="_blank"> MI
  <li> PyTorch (with CUDA support if using a GPU) </li>
 </ul> </p>
 <B> Installation : </B>
-
 ````bash
 hdaoigh
 ````
