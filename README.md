@@ -1,4 +1,4 @@
-# On the Automatic Generation of Medical Imaging Reports.
+# On the Automatic Generation of Medical Imaging Reports
 <B> CheXNet </B> is a powerful vision-language pre-training model capable of handling image-captioning tasks efficiently. This project utilizes the <B> MIMIC-CXR </B> Dataset for generating captions from Radiology X-ray images, specifically applying <B> CheXNet </B> with the <B> Transformer decoder </B>.
 <hr>
 
@@ -12,4 +12,15 @@ The <a href="https://physionet.org/content/mimic-cxr/2.0.0/" target="_blank"> MI
   <li> <B> Image Captioning </B> : The model incorporates a <B> Transformer decoder </B>, leveraging the power of Transformers and Multi-Head Attention for image feature extraction and generating descriptive captions. By effectively capturing intricate visual details through auto-regressive generation, the system creates coherent and contextually relevant descriptions that reflect the detected objects and their interactions within the image. </li>
 </ul>
 <hr>
+
+# To Start
+<B> Requirements : </B>
+<ul>
+ <li> Python 3.8+ </li>
+ <li> PyTorch (with CUDA support if using a GPU) </li>
+</ul> </p>
+<B> Installation : </B>
+
+
+
  
