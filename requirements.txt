@@ -1,0 +1,6 @@
+pytorch
+torchvision
+streamlit
+numpy
+tensorflow
+nltk
