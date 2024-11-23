@@ -43,8 +43,10 @@ pip install -r requirements.txt
 
 # How to use : 
 
-open app.py and modify model_ckpt and tokenizer_json_path to your own paths :
-
+<ol>
+ <li>open app.py and modify model_ckpt and tokenizer_json_path to your own paths :
+<br><br>
+  
 ````python
 model_ckpt = "repo_path_on_your_system/weights/model.pth"
 ````
@@ -52,11 +54,19 @@ model_ckpt = "repo_path_on_your_system/weights/model.pth"
 ````python
 tokenizer_json_path = "repo_path_on_your_system/tokenizer.json"
 ````
+
+</li>
+
+<li> 
 run the following comand from your terminal after replacing repository_path with your own path :
+<br><br>
  
-````bash
+ ````bash
 streamlit run repository_path/app.py
 ````
+</li>
+
+</ol>
 <hr>
 
  
