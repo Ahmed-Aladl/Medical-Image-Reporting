@@ -18,12 +18,30 @@ The <a href="https://physionet.org/content/mimic-cxr/2.0.0/" target="_blank"> MI
 <ul>
  <li> Python 3.8+ </li>
  <li> PyTorch (with CUDA support if using a GPU) </li>
+ <li> Streamlit == 1.39.0 </li>
 </ul> </p>
 <B> Installation : </B>
+
 ````bash
 hdaoigh
 ````
 
+<B> How to use : </B>
+
+open app.py and modify model_ckpt and tokenizer_json_path to your own paths :
+
+````python
+model_ckpt = "repo_path_on_your_system/weights/model.pth"
+````
+
+````python
+tokenizer_json_path = "repo_path_on_your_system/tokenizer.json"
+````
+run the following comand from your terminal after replacing repository_path with your own path :
+ 
+````bash
+streamlit run repository_path/app.py
+````
 
 
  
