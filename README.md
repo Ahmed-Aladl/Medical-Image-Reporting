@@ -40,7 +40,7 @@ cd Medical-Image-Reporting
 pip install -r requirements.txt
 ````
 
-## How to use : 
+# How to use : 
 
 open app.py and modify model_ckpt and tokenizer_json_path to your own paths :
 
