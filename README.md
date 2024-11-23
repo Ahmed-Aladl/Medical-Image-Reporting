@@ -39,6 +39,7 @@ cd Medical-Image-Reporting
 ````bash
 pip install -r requirements.txt
 ````
+<hr>
 
 # How to use : 
 
@@ -56,6 +57,6 @@ run the following comand from your terminal after replacing repository_path with
 ````bash
 streamlit run repository_path/app.py
 ````
-
+<hr>
 
  
