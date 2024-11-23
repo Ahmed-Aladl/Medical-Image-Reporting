@@ -14,19 +14,33 @@ The <a href="https://physionet.org/content/mimic-cxr/2.0.0/" target="_blank"> MI
 <hr>
 
 # To Start
-<B> Requirements : </B>
+
+## Requirements : 
 <ul>
  <li> Python 3.8+ </li>
  <li> PyTorch (with CUDA support if using a GPU) </li>
  <li> Streamlit == 1.39.0 </li>
 </ul> </p>
-<B> Installation : </B>
+
+## Installation :
+<B> 1. Clone the repository : </B>
 
 ````bash
-hdaoigh
+git clone https://github.com/Ahmed-Aladl/Medical-Image-Reporting.git
+````
+<B> 2. Navigate to the project directory : </B>
+
+````bash
+cd Medical-Image-Reporting
 ````
 
-<B> How to use : </B>
+<B> 3. Install the required Python packages : </B>
+
+````bash
+pip install -r requirements.txt
+````
+
+## How to use : 
 
 open app.py and modify model_ckpt and tokenizer_json_path to your own paths :
 
